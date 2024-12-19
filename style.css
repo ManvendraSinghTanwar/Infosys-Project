@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFDAB9;
     color: #333;
 }
 
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #6b3480;
     color: white;
     padding: 10px 20px;
 }
@@ -35,7 +35,7 @@ body {
 .navbar .search-bar button {
     padding: 5px 10px;
     margin-left: 5px;
-    background-color: #555;
+    background-color:#6b3480;
     color: white;
     border: none;
     border-radius: 4px;
@@ -104,7 +104,7 @@ form input {
 
 form button {
     padding: 10px 15px;
-    background-color: #333;
+    background-color:#2a2f87;
     color: white;
     border: none;
     border-radius: 4px;
@@ -118,7 +118,7 @@ form button:hover {
 /* Footer Styling */
 footer {
     text-align: center;
-    background-color: #333;
+    background-color:#6b3480;
     color: white;
     padding: 10px 0;
     position: fixed;

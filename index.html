@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="navbar">
-        <div class="logo">SARA Fashion</div>
+        <div class="logo">Fashion Hub</div>
         
         <div class="search-bar">
             <input type="text" id="search" name="search" placeholder="Search">
@@ -27,9 +27,12 @@
         </div>
     </div>
     
-    <form action="/add-product-details" method="POST">
+   <form action="/add-product-details" method="POST">
         <label for="productName">Name of Product</label><br>
-        <input type="text" id="productName" name="productName" required><br><br>
+        <input type="text" id="product Name" name="product Name" required><br>
+
+        <label for="size">Product size</label><br>
+        <input type="number" id="size" name="size" required><br>
 
         <label for="previousPrice">Previous Price</label><br>
         <input type="number" id="previousPrice" name="previousPrice" step="0.01" required><br><br>
@@ -37,25 +40,47 @@
         <label for="currentPrice">Current Price</label><br>
         <input type="number" id="currentPrice" name="currentPrice" step="0.01" required><br><br>
 
-        <label for="category">Category</label><br>
-        <input type="text" id="category" name="category" required><br><br>
+        <label for="category"> Product Category</label><br>
+        <input type="text" id="category" name="Product category" required><br>
+
+        <label for="colour">Colour </label><br>
+        <input type="text" id="colour" name="colour" required><br>
 
         <label for="brand">Brand</label><br>
-        <input type="text" id="brand" name="brand" required><br><br>
+        <input type="text" id="brand" name="brand" required><br>
 
         <label for="inStock">In Stock</label><br>
-        <input type="text" id="in stock" name="in stock"required><br><br>
+        <input type="text" id="in stock" name="in stock"required><br>
+
+        <label for="quantity">Product Quantity</label><br>
+        <input type="text" id="quantity" name="quantity" required><br>
+         
+        <label for="department">Product Department</label><br>
+        <input type="text" id="text" name="text" required><br>
+
+        <label for="rating">Rating</label><br>
+        <input type="number" id="rating" name="rating"required><br>
+
+        <label for="description">Product Description</label><br>
+        <input type="text" id="description" name="description"required><br>
+
+        <label for="manufacturer">Product manufacturer</label><br>
+        <input type="text" id="text" name="text" required><br>
+
+        <label for="origin">Country of origin</label><br>
+        <input type="text" id="origin" name="origin" required><br>
         
         <form action="/upload" method="post" enctype="multipart/form-data">
             <label for="product-picture">Choose a product picture</label>
-            <input type="file" id="product-picture" name="product-picture" accept="image/*" required><br><br>
+            <input type="file" id="product-picture" name="product-picture" accept="image/*" required><br>
         
         <button type="Add Product">Add Product</button><br><br>
-        <button type="Show Shop Items">Show Shop Items</button><br><br>
+        <button type="Show Shop Items">Show shop items</button>
     </form>
 
+
     <footer>
-        SARA|&copy;2023 All rights reserved
+        Fashion Hub|&copy;2023 All rights reserved
     </footer>
 
 </body>
