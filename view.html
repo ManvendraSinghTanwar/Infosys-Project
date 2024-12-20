@@ -78,20 +78,19 @@
     </footer>
 
     <script>
-        // Example JavaScript for handling Update and Delete actions
+       
         function updateProduct(button) {
-            const row = button.closest('tr'); // Get the row of the clicked button
-            const productName = row.cells[0].textContent; // Example: Get the product name
+            const row = button.closest('tr'); 
+            const productName = row.cells[0].textContent; 
             alert(`Update product: ${productName}`);
-            // Implement the update functionality here (e.g., redirect to a form or show a modal)
+           
         }
 
         function deleteProduct(button) {
-            const row = button.closest('tr'); // Get the row of the clicked button
-            const productName = row.cells[0].textContent; // Example: Get the product name
+            const row = button.closest('tr'); 
+            const productName = row.cells[0].textContent; 
             if (confirm(`Are you sure you want to delete ${productName}?`)) {
-                row.remove(); // Remove the row from the table
-                // Implement the delete functionality here (e.g., send a request to the server)
+                row.remove();
             }
         }
     </script>
