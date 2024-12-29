@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #FFDAB9;
+    background-color: white;
     color: #333;
 }
 
@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6b3480;
+    background-color: #0d2357;
     color: white;
     padding: 10px 20px;
 }
@@ -35,8 +35,8 @@ body {
 .navbar .search-bar button {
     padding: 5px 10px;
     margin-left: 5px;
-    background-color:#6b3480;
-    color: white;
+    background-color:white;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -118,7 +118,7 @@ form button:hover {
 /* Footer Styling */
 footer {
     text-align: center;
-    background-color:#6b3480;
+    background-color:#011032;
     color: white;
     padding: 10px 0;
     position: fixed;
@@ -148,4 +148,66 @@ button:hover, .button:hover {
 .action-buttons {
     margin: 20px 0;
     text-align: center;
+}
+
+.dashboard-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.dashboard-container .header {
+    font-size: 2em;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #0d2357;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.dashboard-container .order-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-container .order {
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.dashboard-container .order img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.dashboard-container .order .order-details {
+    flex-grow: 1;
+}
+
+.dashboard-container .order .status-select {
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.dashboard-container .logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2a2f87;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
